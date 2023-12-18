@@ -1,0 +1,26 @@
+                   #的FIRST集为：# 
+                   A的FIRST集为：EPS 
+                   M的FIRST集为：EPS 
+                   N的FIRST集为：EPS 
+                   P的FIRST集为：float int void 
+      add_expression的FIRST集为：( ID floating num 
+       argument_list的FIRST集为：( EPS ID floating num 
+     assign_sentence的FIRST集为：ID 
+             declare的FIRST集为：float int void 
+        declare_list的FIRST集为：float int void 
+          expression的FIRST集为：( ID floating num 
+              factor的FIRST集为：( ID floating num 
+    function_declare的FIRST集为：( 
+         if_sentence的FIRST集为：if 
+       inner_declare的FIRST集为：EPS float int 
+   inner_var_declare的FIRST集为：float int 
+                item的FIRST集为：( ID floating num 
+               param的FIRST集为：float int 
+           parameter的FIRST集为：EPS float int 
+      parameter_list的FIRST集为：float int 
+     return_sentence的FIRST集为：return 
+            sentence的FIRST集为：ID if return while 
+      sentence_block的FIRST集为：{ 
+       sentence_list的FIRST集为：ID if return while 
+         var_declare的FIRST集为：; 
+      while_sentence的FIRST集为：while 
